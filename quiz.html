@@ -14,16 +14,30 @@
           What is the third angle for the triangle where angle1 = 45° and angle2
           = 45°?
         </p>
-        <label><input type="radio" name="question-1" />45</label>
-        <label><input type="radio" name="question-1" />90</label>
-        <label><input type="radio" name="question-1" />60</label>
+        <label><input type="radio" name="question-1" value="45°" />45°</label>
+        <label><input type="radio" name="question-1" value="90°" />90°</label>
+        <label><input type="radio" name="question-1" value="60°" />60°</label>
       </div>
       <div class="question-container">
         <p>If a triangle has an angle of 90 degrees, what is it called?</p>
-        <label><input type="radio" name="question-1" />45</label>
-        <label><input type="radio" name="question-1" />90</label>
-        <label><input type="radio" name="question-1" />60</label>
+        <label
+          ><input type="radio" name="question-2" value="obtuse" />Obtuse</label
+        >
+        <label
+          ><input type="radio" name="question-2" value="acute" />Acute</label
+        >
+        <label
+          ><input
+            type="radio"
+            name="question-2"
+            value="right-angled"
+          />Right-angled</label
+        >
       </div>
+      <button id="submit-answer-btn" type="button">Submit Answers</button>
     </form>
+    <div id="output"></div>
   </body>
+
+  <script src="quiz.js"></script>
 </html>
