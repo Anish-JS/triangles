@@ -17,6 +17,6 @@ const calculateScore = () => {
     index++;
   }
 
-  output.innerText = "You've scored " + score + " points";
+  output.innerText = `You've scored  ${score}  points`;
 };
 submitBtn.addEventListener("click", calculateScore);
